@@ -1,6 +1,6 @@
 # clusters-api
 
-Graphql API for a forum. 
+GraphQL API for a forum. 
 
 ## Features:
 
@@ -18,8 +18,10 @@ Graphql API for a forum.
 
 2. Download dependencies. ( npm install )
 
-2. Add your environment variables on .env (Database url, username, password, JWT secret token)
+3. Add your environment variables to .env (Database url, username, password, JWT secret token)
 
 4. Have the database running (Locally or using cloud solutions, like MongoDB Atlas)
 
-3. Run the project with npm run dev.
+5. Run the project with npm run dev.
+
+6. Access /graphql to test the API and to see the documentation.
