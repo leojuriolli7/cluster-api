@@ -2,6 +2,8 @@
 
 GraphQL API for a forum, i am using it on my other project on the front end, <a href="https://github.com/leojuriolli7/cluster/">Cluster</a>. 
 
+It uses Nodejs and Express, Mongoose for connecting with Mongodb and JWT for authentication.
+
 ## Features:
 
 - User registration, login and authentication with JWT
@@ -14,14 +16,26 @@ GraphQL API for a forum, i am using it on my other project on the front end, <a 
 
 ## Usage:
 
-1. Clone the repository.
+1. Clone the repository:
 
-2. Download dependencies. ( npm install )
+```bash
+git clone git@github.com:leojuriolli7/cluster-api.git
+```
+
+2. Download dependencies:
+
+```bash
+npm install
+```
 
 3. Add your environment variables to .env (Database url, username, password, JWT secret token)
 
-4. Have the database running (Locally or using cloud solutions, like MongoDB Atlas)
+4. Have the database running (may have to alter db.ts if not using MongoDB Atlas)
 
-5. Run the project with npm run dev.
+5. Run the project:
+
+```bash
+npm run dev
+```
 
 6. Access /graphql to test the API and to see the documentation.
