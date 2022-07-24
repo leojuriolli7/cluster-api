@@ -1,6 +1,6 @@
 # clusters-api
 
-GraphQL API for a forum. 
+GraphQL API for a forum, i am using it on my other project on the front end, <a href="https://github.com/leojuriolli7/cluster/">Cluster</a>. 
 
 ## Features:
 
