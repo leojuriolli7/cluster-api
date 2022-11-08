@@ -32,7 +32,7 @@ npm install
 
 3. Add your environment variables to .env (Database url, username, password, JWT secret token)
 
-4. Have the database running (will need to alter the db.ts file if not using MongoDB Atlas)
+4. Connect your own database, have it ready (will need to alter the `db/index.js` file if not using MongoDB Atlas)
 
 5. Run the project:
 
