@@ -4,6 +4,8 @@ This is a GraphQL API for a forum, I am using it on my other project on the fron
 
 It uses <a href="https://nodejs.org/en/">Nodejs</a> and <a href="https://expressjs.com/">Express</a>, <a href="https://mongoosejs.com/">Mongoose</a> for connecting with <a href="https://www.mongodb.com/">Mongodb</a> and <a href="https://jwt.io/">JWT</a> for authentication.
 
+The API has been deployed in production to Vercel as a [serverless function](https://vercel.com/docs/concepts/functions/serverless-functions).
+
 ## Features:
 
 - User registration, login and authentication with JWT.
